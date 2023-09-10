@@ -1,0 +1,101 @@
+:root{
+    --primary-color: #ABD373;
+    --secondary-color: pink;
+    --text-color: black;
+
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border-color: white;
+}
+
+
+
+.top-bar{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.top-bar .dropdown-toggle{
+    text-decoration: none;
+    color: white;
+}
+
+.header-middle-bar{
+    border-bottom: 1px solid rgba(168, 168, 168, 0.349);
+}
+.header-middle-bar .phone a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.header-icons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+.nav-link{
+    font-size: 15px;
+}
+    
+.nav-link:hover{
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+#hero{
+    background-color: rgba(255, 220, 225, 0.336);
+}
+
+.hero-text span{
+    font-weight: 300;
+    font-size: 47px;
+    line-height: 65px;
+}
+
+.hero-text h2{
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 94px;
+    margin-bottom: 15px
+} 
+
+.hero-text p{
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.hero-img img{
+    /* animation-name: fadeInUp; */
+    width: 550px;
+}
+
+.hero-img img:hover{
+    transform: translate3d(1px, 1px, 1px) rotate(0.0010deg);
+}
+
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+}
