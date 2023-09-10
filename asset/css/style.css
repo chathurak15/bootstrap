@@ -55,33 +55,47 @@ body{
 }
 
 .hero-text span{
-    font-weight: 300;
-    font-size: 47px;
-    line-height: 65px;
+    font-weight: 200;
+    font-size: 3.3rem;
+    line-height: 75px;
 }
 
 .hero-text h2{
     font-weight: 400;
-    font-size: 90px;
-    line-height: 94px;
+    font-size: 5.2rem;
+    line-height: 85px;
     margin-bottom: 15px
 } 
 
 .hero-text p{
-    font-size: 22px;
-    line-height: 28px;
-    margin-bottom: 40px;
+    font-size: 1.3rem;
+    line-height: 20px;
+    margin-bottom: 35px;
+}
+.hero-text .btn-primary{
+    border-radius: 25px;
 }
 
 .hero-img img{
     /* animation-name: fadeInUp; */
-    width: 550px;
+    /* width: 550px; */
 }
 
 .hero-img img:hover{
     transform: translate3d(1px, 1px, 1px) rotate(0.0010deg);
 }
 
+.feature .row{
+    border-radius: 10px;
+    border: dotted;
+    /* padding: 10px; */
+    height: 120px;
+    border-color: var(--primary-color);
+}
+.feature .row span{
+    font-size: 4rem;
+    color: var(--primary-color);
+}
 .desktop{
     display: block;
 }
