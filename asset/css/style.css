@@ -14,8 +14,6 @@ body{
     border-color: white;
 }
 
-
-
 .top-bar{
     background-color: var(--primary-color);
     color: white;
@@ -48,6 +46,17 @@ body{
 .nav-link:hover{
     color: var(--primary-color);
     font-size: 16px;
+}
+
+.mobile-header img{
+    width: 32%;
+}
+
+.mobile-header .header-icons{
+    list-style: none;
+    padding: 0;
+    margin-top: -20px;
+    color: gray;
 }
 
 #hero{
@@ -96,6 +105,89 @@ body{
     font-size: 4rem;
     color: var(--primary-color);
 }
+
+.product-s-title{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.product-s-title h2{
+    font-weight: 800;
+}
+
+.product-s-title::before{
+    content: "";
+    width: 4.8rem;
+    height: 3.5px;
+    position: absolute;
+    background-color: var(--primary-color);
+    top: 50%;
+    left: -5.6rem;
+}
+
+.product-s-title::after{
+    content: "";
+    width: 4.8rem;
+    height: 3.5px;
+    position: absolute;
+    background-color: var(--primary-color);
+    top: 50%;
+    right: -5.6rem;
+}
+
+.product-img{
+    position: relative;
+}
+
+.product-img .secondary-img{
+    display: none;
+}
+.product-img:hover .secondary-img{
+    display: block;
+}
+
+.product-img:hover .primary-img{
+    display: none;
+}
+
+.product-img .actions{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.product-img:hover .actions{
+    display: block;
+}
+
+.product-img .actions .p-btn{
+    box-shadow: 0 5px 10px rgba(22, 22, 22, 0.15);
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-color: white;
+    display: inline-flex;
+    justify-content: center;
+    color: gray;
+    align-items: center
+
+}
+
+.product-img .actions .p-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+    
+
+}
+
+.p-details p{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 .desktop{
     display: block;
 }
