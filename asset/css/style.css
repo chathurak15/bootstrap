@@ -134,7 +134,21 @@ body{
     top: 50%;
     right: -5.6rem;
 }
+.nav-pills{
+    margin-top: 40px;
+    justify-content:center;
+}
 
+
+.nav-item.nav-link:active  {
+    color:var(--primary-color);
+    border-color: #ABD373;
+    border: 2px; 
+} 
+
+.nav-item .nav-link{
+    color: black;
+}
 .product-img{
     position: relative;
 }
